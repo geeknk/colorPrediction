@@ -1,0 +1,51 @@
+body{
+    background-color: #f3f7f7;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+.logo {
+    width: 70px; /* Set desired width */
+    height: 70px; /* Set desired height */
+    border-radius: 50%;
+}
+.carousel-item img{
+    height: 300px;
+}
+.balance {
+    margin-left: auto; /* Push the balance to the right */
+    align-self: center; /* Center vertically with the greeting */
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    margin: 20px;
+}
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.triangles-container {
+    display: flex;
+    justify-content: center; /* Center align the triangles */
+    margin: 20px 0;
+}
+.balance {
+    margin-left: auto; /* Push the balance to the right */
+    align-self: center; /* Center vertically with the greeting */
+}
+.timer {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main_content {
+    padding-left: 1px;
+}
